@@ -5,7 +5,7 @@ export const PlayerContext = createContext();
 
 const PlayerContextProvider = (props) => {
 
-    const url = 'http://localhost:3000';
+    const url = 'https://spotify-clone-backend-five.vercel.app/';
 
     const audioRef = useRef();
     const seekBar = useRef();
